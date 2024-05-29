@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://gm-code.s3.eu-west-1.amazonaws.com/lambda-PyWebCalc/style.css">
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<title>Lambda Python Html</title>
+<py-env>
+    - numpy
+</py-env>
+</head>
+<body>
+<div id="memory1">0</div>
+<div class="container">
+        <div id="display1"></div>
+        <div id="display2"></div>
+        <div id="sci-btns">
+            <button id="bin" type="submit" pys-onClick="bin">BIN</button>
+            <button id="hex" type="submit" pys-onClick="hex">HEX</button>
+            <button id="dec" type="submit" pys-onClick="dec">DEC</button>
+            <button id="x2" type="submit" pys-onClick="x2">x²</button>
+            <button id="x3" type="submit" pys-onClick="x3">x³</button>
+
+            <button id="bo" type="submit" pys-onClick="bo">(</button>
+            <button id="bc" type="submit" pys-onClick="bc">)</button>
+            <button id="mr" type="submit" pys-onClick="mr">MR</button>
+            <button id="mp" type="submit" pys-onClick="mp">M+</button>
+            <button id="ms" type="submit" pys-onClick="ms">M-</button>
+        </div>
+
+        <div id="hex-btns">
+            <button id="hexa" type="submit" pys-onClick="hexa">A</button>
+            <button id="hexb" type="submit" pys-onClick="hexb">B</button>
+            <button id="hexc" type="submit" pys-onClick="hexc">C</button>
+            <button id="hexd" type="submit" pys-onClick="hexd">D</button>
+            <button id="hexe" type="submit" pys-onClick="hexe">E</button>
+            <button id="hexf" type="submit" pys-onClick="hexf">F</button>
+        </div>
+        
+        <div class="buttons">
+            <button id="svn" type="submit" pys-onClick="svn">7</button>
+            <button id="eight" type="submit" pys-onClick="eight">8</button>
+            <button id="nine" type="submit" pys-onClick="nine">9</button>
+            <button id="over" type="submit" pys-onClick="over">÷</button>
+            
+            <button id="four" type="submit" pys-onClick="four">4</button>
+            <button id="five" type="submit" pys-onClick="five">5</button>
+            <button id="six" type="submit" pys-onClick="six">6</button>
+            <button id="mlt" type="submit" pys-onClick="mlt">*</button>
+            
+            <button id="one" type="submit" pys-onClick="one">1</button>
+            <button id="two" type="submit" pys-onClick="two">2</button>
+            <button id="three"type="submit" pys-onClick="three">3</button>
+            <button id="plus" type="submit" pys-onClick="plus">+</button>
+            
+            <button id="delete" type="submit" pys-onClick="delete">DEL</button>
+            <button id="zero" type="submit" pys-onClick="zero">0</button>
+            <button id="pi" type="submit" pys-onClick="pi">π</button>
+            <button id="mns" type="submit" pys-onClick="mns">-</button>
+            
+            <button id="cancel" type="submit" pys-onClick="cancel">AC</button>
+            <button id="dp" type="submit" pys-onClick="dp">.</button>
+            <button id="sqr" type="submit" pys-onClick="sqr">√</button>
+            <button id="equ" type="submit" pys-onClick="equ">=</button>
+        </div>
+</div>
+<div class="footer"> <p>© <a href="https://linkedin.com/in/gmarquis" style="color:red;">Glen Marquis</a></p> </div>
+<py-script src="https://gm-code.s3.eu-west-1.amazonaws.com/lambda-PyWebCalc/main.py">
+</py-script>
+</body>
+</html>

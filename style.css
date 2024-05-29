@@ -1,0 +1,61 @@
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #a2a2a2;
+	zoom: 100%;
+}
+
+.container {
+	background-color: #fcfcfc;
+	justify-content: center;
+	margin-top: 1.5rem;
+	margin-left: 20px;
+	display: flex;
+	width: 14.7rem;
+	height: 314px;
+	border-radius: 12px;
+}
+
+#sci-btns {display: grid; grid-template-columns: auto auto auto auto auto;
+grid-gap: 4px; font-size: 20px; background-color: white; margin-top: 119px; position: absolute;}
+#bin, #hex, #dec, #x2, #x3 {background: #f1f1f1; border: #f1f1f1; color: red; border-radius: 8px; width:42px; height:19px;}
+#bo, #bc, #mr, #mp, #ms {background: #f1f1f1; border: #f1f1f1; color: red; border-radius: 8px; height:19px;}
+#bin:hover, #hex:hover, #dec:hover, #x2:hover, #x3:hover {background: hsl(225, 21%, 55%, 1); }
+#bo:hover, #bc:hover, #mr:hover, #mp:hover, #ms:hover, #pi:hover {background: hsl(225, 21%, 55%, 1); }
+
+#hex-btns {display: grid; grid-template-columns: auto auto auto auto auto auto;
+grid-gap: 4px; font-size: 20px; background-color: white; margin-top: 165px; position: absolute;}
+#hexa, #hexb, #hexc, #hexd, #hexe, #hexf {background: #f1f1f1; border: #f1f1f1; color: red; border-radius: 8px; width:34px; height:19px;}
+#hexa:hover, #hexb:hover, #hexc:hover, #hexd:hover, #hexe:hover, #hexf:hover {background: hsl(225, 21%, 55%, 1); }
+
+.buttons {display: grid; grid-template-columns: auto auto auto auto;
+grid-gap: 8px; font-size: 20px; background-color: white; margin-top: 189px; height: 118px; }
+#svn, #eight, #nine, #over {background: #f1f1f1; color: black ; border: #f1f1f1;}
+#svn:hover, #eight:hover, #nine:hover, #over:hover{background: hsl(225, 21%, 55%, 1); }
+#over {background: #fc9507; color: white; border-radius: 8px; }
+
+#four, #five, #six , #mlt {background: #f1f1f1; color: black; border: #f1f1f1; }
+#four:hover, #five:hover, #six:hover, #mlt:hover{ background: hsl(225, 21%, 55%, 1); }
+#mlt {background: #fc9507; color: white; border-radius: 8px; }
+
+#one, #two, #three, #plus {background: #f1f1f1; color: black; border: #f1f1f1;}
+#one:hover, #two:hover, #three:hover, #plus:hover{ background: hsl(225, 21%, 55%, 1); }
+#plus {background: #fc9507; color: white; border-radius: 8px;}
+
+#delete, #zero, #pi, #mns {background: #f1f1f1; color: black; border: #f1f1f1;}
+#delete:hover, #zero:hover, #pi:hover, #mns:hover{ background: hsl(225, 21%, 55%, 1); }
+#delete {background: rgb(255, 65, 7); color: white; border-radius: 8px;}
+#mns {background: #fc9507; color: white; border-radius: 8px;}
+
+#cancel, #dp, #sqr, #equ {background: #f1f1f1; border: #f1f1f1; width: 50px; color: black; }
+#cancel:hover, #dp:hover, #sqr:hover, #equ:hover{ background: hsl(225, 21%, 55%, 1)}
+#cancel {background: rgb(255, 65, 7); color: white; border-radius: 8px; }
+#equ {background: #46e0bc; color: white; border-radius: 8px; }
+
+#display1 { overflow: auto; top: 24px; height: 76px; width: 235px; text-align: right;
+	font-size:32px; background: #345b82; color: white; position: absolute; }
+#display2 { overflow: auto; top: 99px; height: 40px; width: 235px; text-align: right;
+	font-size:32px; background: #345b82; color: white; position: absolute; }
+
+#memory1 {display: none;}
+.footer { margin-bottom: 0px; margin-left:85px; text-decoration: none; color: rgb(255, 65, 7);
+font-size: 14px; color: grey; background: #a2a2a2;}
