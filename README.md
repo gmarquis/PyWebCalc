@@ -1,1 +1,1 @@
-gm-code.co.uk/webcalc
+https://gm-code.co.uk/webcalc
